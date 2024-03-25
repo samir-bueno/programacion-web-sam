@@ -1,0 +1,17 @@
+.alineamiento {
+  display: flex;
+}
+.caja-foto {
+  width: 20%;
+}
+
+.caja-titulo {
+  width: 90%;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.imagen-cv {
+  width: 200px;
+  height: 140px;
+}
