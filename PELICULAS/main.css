@@ -1,0 +1,45 @@
+.alineamiento {
+    text-align: center
+}
+
+.fondopagina {
+    background-image: url("../PELICULAS/fotospelis/fondo_claro.jpg");
+  
+}
+
+
+.grilla{
+    display: grid;
+    /*grid-template-columns: 250px 250px 250px;/*como generr*/
+    /*grid-template-columns: repeat(3, 250px);*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /*grid-template-rows: 350px;*/
+    grid-auto-rows: auto;
+    gap: 20px;
+}
+
+.imagen_tamaño{
+  width: 80%;
+  aspect-ratio: 1 / 2 ; /*opcional -> darle estructura a la foto si es widescreen o si es tipo retrato*/
+  object-fit: cover;
+}
+
+.color_div {
+    color: white;
+    background-color: darkslategrey;
+}
+
+.alineadofoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bordeando{    
+        background-color: lightgreen;
+        border: solid 1px black;
+        width: 100px;
+        height: 100px;
+        border-top-left-radius: 40px 40px;
+      
+}
