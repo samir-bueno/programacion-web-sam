@@ -1,0 +1,28 @@
+.alineamiento_flex{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+.alineamiento_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.alineamiento-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gaps {
+    display: grid;
+    gap: 50px;
+}
+
+.alineamiento-grid-column-y-row {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    
+}
+
