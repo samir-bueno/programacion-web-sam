@@ -22,7 +22,7 @@
 
 .alineamiento-grid-column-y-row {
     display: grid;
-    grid-template-columns: 150px 300px 200px;
+    grid-template-columns: 150px 200px 200px;
     grid-template-rows:  50px 40px 70px;
     
 }
@@ -31,14 +31,76 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 65px ;
+    gap: 65px;
 
 }
 
-.pokemon_contraste {
-    background-color: blue;
+/*Colores para cada pokemon*/
+
+.pokemon_caterpie {
+    background-color: green;
     text-align: center;
     color: yellow;
     border-radius: 10px;
 }
+
+.pokemon_charmander {
+    background-color: orange;
+    text-align: center;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.pokemon_squirtle {
+    background-color:aqua;
+    text-align: center;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.pokemon_arbok {
+    background-color:blueviolet;
+    text-align: center;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.pokemon_pidgey {
+    background-color:coral;
+    text-align: center;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.pokemon_bulbasaur {
+    background-color:darkolivegreen;
+    text-align: center;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.pokemon_charizard {
+    background-color:chocolate;
+    text-align: center;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.pokemon_clefairy {
+    background-color:hotpink;
+    text-align: center;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.pokemon_vulpix {
+    background-color:lightsalmon;
+    text-align: center;
+    color: yellow;
+    border-radius: 10px;
+}
+
+
+
+
 
