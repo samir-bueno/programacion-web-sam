@@ -1,7 +1,7 @@
 .alineamiento_flex{
     display: flex;
     justify-content: space-evenly;
- }
+}
 
 .alineamiento_grid {
     display: grid;
@@ -22,7 +22,23 @@
 
 .alineamiento-grid-column-y-row {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 150px 300px 200px;
+    grid-template-rows:  50px 40px 70px;
     
+}
+
+.grilla_3x3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 65px ;
+
+}
+
+.pokemon_contraste {
+    background-color: blue;
+    text-align: center;
+    color: yellow;
+    border-radius: 10px;
 }
 
