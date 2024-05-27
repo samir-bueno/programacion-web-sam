@@ -1,0 +1,11 @@
+.ordenar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    border-radius: 30px;
+    height: 30px;
+}
+
+.estilo_enlace {
+    color: red;
+}

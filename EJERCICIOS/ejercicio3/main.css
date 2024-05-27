@@ -1,0 +1,24 @@
+.ordenar {
+    display: grid;
+    width: 500px;
+    margin: 5%;
+    
+}
+
+.boton {
+   background-color: chartreuse;
+   border-radius: 30px;
+}
+
+.tarjeta {
+    margin: 5% auto;
+    padding: 50px;
+    border-radius: 40px;
+    background-color: brown;
+    width: 40%;
+   
+}
+
+.titulo {
+    text-align: center;
+}
