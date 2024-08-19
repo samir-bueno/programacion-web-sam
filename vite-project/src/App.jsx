@@ -9,6 +9,9 @@ const App = () => {
   return (
     <div className="App">
       <Header />
+      <div className='centrar_imagen'>
+        <img className='imagen' src="./imgs/nuevo_icono.png"/>
+      </div>
       <main>
         <About />
         <Projects />
