@@ -1,3 +1,9 @@
+/*Fondo blanco*/
+.white {
+  background-color: white;
+}
+
+
 /* tamaño imagen */
 .centrar_imagen {
   display: flex;
@@ -5,10 +11,16 @@
  
 }
 
-.imagen {
+.imagen_logo {
   width: 35%;
-  height: 35%; 
+  height: auto; 
 }
+
+.imagen_proyecto{
+  max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
+  height: auto; /* Mantiene la proporción original */
+}
+
 
 
 /* Reset básico */
